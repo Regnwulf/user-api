@@ -1,0 +1,34 @@
+# Node modules
+/node_modules/
+
+# Diretórios de build (caso haja)
+dist/
+build/
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração específicos do editor (VSCode, por exemplo)
+.vscode/
+
+# Arquivos de configuração do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente (.env, etc)
+.env
+
+# Arquivos de lock de dependência (geralmente você deve mantê-los, mas pode ignorá-los em alguns casos)
+package-lock.json
+yarn.lock
+
+# Arquivos do Prettier
+.prettierignore
+
+# Arquivos de configuração do ESLint
+.eslintrc.json
