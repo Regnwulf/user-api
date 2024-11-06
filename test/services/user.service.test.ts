@@ -1,6 +1,6 @@
 import { UserService } from '../../src/services/user.service'
 import { UserRepository } from '../../src/repositories/user.repository'
-import { User, UserRole } from '../../src/entities/User'
+import { User, UserRole } from '../../src/entities/user.entity'
 import { UpdateResult } from 'typeorm'
 
 jest.mock('../../src/repositories/user.repository')

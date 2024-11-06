@@ -1,4 +1,4 @@
-import { User, UserRole } from '../entities/User'
+import { User, UserRole } from '../entities/user.entity'
 import { AppDataSource } from '../config/database'
 
 export const UserRepository = AppDataSource.getRepository(User).extend({

@@ -6,7 +6,7 @@ import {
   searchUsers,
 } from '../../src/controllers/user.controller'
 import { UserService } from '../../src/services/user.service'
-import { User } from '../../src/entities/User'
+import { User } from '../../src/entities/user.entity'
 
 jest.mock('../../src/services/user.service')
 
