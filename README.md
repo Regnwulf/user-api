@@ -64,7 +64,7 @@ auth_project/
 │   ├── controllers/
 │   │   └── user.controller.ts       # User controller
 │   ├── entities/
-│   │   └── User.ts                  # User entity
+│   │   └── user.entity.ts           # User entity
 │   ├── repositories/
 │   │   └── user.repository.ts       # User repository
 │   ├── routes/
