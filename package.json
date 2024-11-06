@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "jest",
     "lint": "eslint . --config eslint.config.mjs",
     "lint:fix": "eslint . --ext .ts --fix",
